@@ -1,3 +1,4 @@
+BUNDLE_PATH = ENV.fetch('BUNDLE_PATH') { File.expand_path('../vendor/bundle', __dir__) }
 source "https://rubygems.org"
 
 gem "rails", "~> 7.2.1"
